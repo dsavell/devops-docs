@@ -1,4 +1,0 @@
-# GitHub
-
-## Repositories
-
