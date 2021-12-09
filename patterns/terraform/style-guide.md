@@ -23,7 +23,7 @@ Note: These conventions refer to Terraform names themselves, **NOT cloud resourc
 
 ### Indentation
 
-1. **pdatedMUST** be 2 spaces, aswell as for each nested code block.
+1. **MUST** be 2 spaces, aswell as for each nested code block.
 
 Good:
 
