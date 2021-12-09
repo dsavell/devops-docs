@@ -4,22 +4,22 @@
 
 ### Naming Conventions
 
-Note: These conventions refer to Terraform names themselves, **NOT cloud resources.**
+Note: These conventions refer to Terraform names themselves, **NOT** cloud resources**.**
 
-1. Use \_ (underscores) instead of - (dash) in all Resource/Data Source/Variable/Output/Local/Module names.
+1. Use `_` (underscores) instead of `-` (dash) in all Resource/Data Source/Variable/Output/Local/Module names.
 
-* Good: `resource "azurerm_resource_group" "example_name" {}`
-* Bad: `resource "azurerm_resource_group" "example-name" {}`
+* Good: `resource "example_resource" "example_name" {}`
+* Bad: `resource "example_resource" "example-name" {}`
 
 2\. **MUST** be lowercase.
 
-* Good: `resource "azurerm_resource_group" "example_name" {}`
-* Bad: `resource "azurerm_resource_group" "EXAMPLE_NAME" {}`
+* Good: `resource "example_resource" "example_name" {}`
+* Bad: `resource "example_resource" "EXAMPLE_NAME" {}`
 
 3\. Always use singular nouns.
 
-* Good: `resource "azurerm_resource_group" "firewall" {}`
-* Bad: `resource "azurerm_resource_group" "firewalls" {}`
+* Good: `` resource "example_resource" "example" {}` ``
+* Bad: `resource "example_resource" "examples" {}`
 
 ### Indentation
 
@@ -35,7 +35,6 @@ resource "example_resource" "example_name" {
     example_attribute {
     }
   }
-
 }
 ```
 
