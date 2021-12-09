@@ -10,3 +10,4 @@
 * [Terraform](patterns/terraform/README.md)
   * [Style Guide](patterns/terraform/style-guide.md)
   * [Code Structure](patterns/terraform/code-structure.md)
+* [Docker](patterns/docker.md)
