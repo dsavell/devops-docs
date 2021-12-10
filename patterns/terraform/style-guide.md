@@ -23,7 +23,7 @@ Note: These conventions refer to Terraform names themselves, **NOT** cloud resou
 
 ### Indentation
 
-1. **MUST** be 2 spaces, aswell as for each nested code block.
+1. **MUST** be 2 spaces for each nesting level.
 
 Good:
 
@@ -50,3 +50,11 @@ resource "example_resource" "example_name" {
     }
 }
 ```
+
+### Code Style
+
+1. Style **MUST** follow the conventions set by Terraform & `terraform fmt` CLI command stated in the below documentation.
+
+**NOTE:** Running `terraform fmt` will enforce the below automatically.
+
+{% embed url="https://www.terraform.io/docs/language/syntax/style.html" %}
