@@ -18,7 +18,7 @@ Note: These conventions refer to Terraform names themselves, **NOT** cloud resou
 
 3\. Always use singular nouns.
 
-* Good: `` resource "example_resource" "example" {}` ``
+* Good: `resource "example_resource" "example" {}`
 * Bad: `resource "example_resource" "examples" {}`
 
 ### Indentation
