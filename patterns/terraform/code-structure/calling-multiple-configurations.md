@@ -2,13 +2,6 @@
 
 The multiple configurations setup is useful for organizations or enterprises that has infrastructure that is not necassaily the same in each environment.
 
-You could have the concept that you wish to centrally controll network resources, logging resources, security resources, those resources may not necassarily be the same for each environment.
+This concept is used for a the idea of core / shared infrastructure  across the organization that does not require a route-to-live, but still has multiple environments.
 
-The bellow pattern will make some assumption however the princpal / concept should ideally be the same however you want to isolate you environment.
-
-* Azure
-  * Multiple subscriptions.
-* Google Cloud Platform
-  * Multiple projects.
-* AWS
-  * Multiple accounts.
+Resources that might use the configuration could be networking resources, logging resources, security resources.

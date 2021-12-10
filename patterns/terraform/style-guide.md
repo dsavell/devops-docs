@@ -58,3 +58,7 @@ resource "example_resource" "example_name" {
 **NOTE:** Running `terraform fmt` will enforce the below automatically.
 
 {% embed url="https://www.terraform.io/docs/language/syntax/style.html" %}
+
+##
+
+&#x20;
