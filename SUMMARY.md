@@ -13,5 +13,7 @@
     * [Modules](patterns/terraform/code-structure/modules.md)
     * [Calling - Multiple Configurations](patterns/terraform/code-structure/calling-multiple-configurations.md)
     * [Calling - Single Configuration](patterns/terraform/code-structure/calling-single-configuration.md)
+  * [Pipeline Examples](patterns/terraform/pipeline-examples/README.md)
+    * [GitHub Workflow](patterns/terraform/pipeline-examples/github-workflow.md)
 * [Terraform Cloud](patterns/terraform-cloud.md)
 * [Docker](patterns/docker.md)
