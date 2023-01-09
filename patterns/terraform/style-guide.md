@@ -12,7 +12,9 @@ description: >-
 
 ### General Conventions
 
-* use `_` (underscores) instead of `-` (dashes) everywhere in resource names, data source names, variable names & outputs.
-* Use lower case and numbers.
+* Use `_` (underscores) instead of `-` (dashes) everywhere in resource names, data source names, variable names & outputs.
+* Use lower case & numbers where possible.
+* File names must use `-` (dash) in the name.
+* Folder names must use `_` (underscore) in the name.
 
 ### Documentation
